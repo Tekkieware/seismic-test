@@ -10,7 +10,7 @@ const HowItWorks = () => {
             <h2 className=' text-5xl/16 text-grey font-medium text-center'>How it Works</h2>
             <p className=' text-center font-normal text-base/6 text-grey-light my-2'>Buying from international stores doesn&apos;t have to be complicated. <br className="hidden lg:block" /> Here&apos;s how we make it simple.</p>
             <div className=" w-full flex flex-col my-5 min-w-5xl max-w-5xl relative z-10">
-                <div className="pointer-events-none -z-50 absolute left-0 top-1/2 -translate-y-1/2 w-[60%] h-[40%] bg-[url('/images/how-it-works/bg.jpg')] bg-no-repeat opacity-100 mask-[radial-gradient(ellipse_at_center,black_55%,transparent_100%)] mask-no-repeat mask-size-[100%_100%]" />
+                <div className="pointer-events-none -z-50 absolute left-0 top-1/2 -translate-y-1/2 w-[60%] h-[40%] bg-[url('/images/how-it-works/bg.jpg')] bg-no-repeat bg-auto opacity-100 mask-[radial-gradient(ellipse_at_center,black_55%,transparent_100%)] mask-no-repeat mask-size-[100%_100%]" />
                 <div className="grid grid-cols-1 sm:grid-cols-3 w-full items-center mx-5">
                     <div className="flex flex-col gap-2  self-start">
                         <SecondaryCard className='py-3 px-5 rounded-full border-none bg-white'>
