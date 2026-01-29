@@ -1,4 +1,5 @@
 import Hero from "@/components/landing page/hero";
+import HowItWorks from "@/components/landing page/how-it-works";
 import Navbar from "@/components/landing page/navbar";
 import PopularStores from "@/components/landing page/popular-stores";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <PopularStores />
+      <HowItWorks />
     </main>
   );
 }
