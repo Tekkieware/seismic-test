@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom Colors - Tailwind v4 syntax */
+  --color-background: #F7F7F7;
+  --color-grey: #181818;
+  --color-badge: #D1FFFB;
+  --color-badge-border: #47FFEE;
+  --color-primary: #003631;
+
+  /* Custom Font Family */
+  --font-family-satoshi: 'Satoshi', sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Tailwind font utility for Satoshi */
+.font-satoshi {
+  font-family: 'Satoshi', Arial, Helvetica, sans-serif;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Satoshi', Arial, Helvetica, sans-serif;
+}
