@@ -7,7 +7,7 @@ import FAQItem from './faq-item'
 import SecondaryButton from '../shared/secondary-button'
 
 const FAQs = () => {
-    
+
     const faqData = [
         {
             id: 1,
@@ -35,28 +35,28 @@ const FAQs = () => {
             answer: 'Optional insurance is available for eligible shipments.'
         },
     ]
-  
+
     return (
-        <section className=" flex flex-col py-12 mx-auto max-w-7xl items-center">
+        <section className=" flex flex-col py-12 mx-auto max-w-7xl items-center px-5 sm:px-0">
             <div className=" my-4 flex justify-center">
                 <Badge text='Built For You' />
             </div>
-            <h2 className=' text-5xl/16 text-grey font-medium text-center'>FAQs</h2>
-            <p className=' text-center font-normal text-base/6 text-grey-light my-2'>Focused on your needs, our team delivers solutions to ensure<br className="hidden lg:block" /> adequate and secure buy and ship to Nigeria.</p>
+            <h2 className=' text-3xl sm:text-5xl/16 text-grey font-medium text-center'>FAQs</h2>
+            <p className=' text-center font-normal text-sm sm:text-base/6 text-grey-light my-2'>Focused on your needs, our team delivers solutions to ensure<br className="hidden lg:block" /> adequate and secure buy and ship to Nigeria.</p>
             <div className=" w-full flex flex-col gap-5 my-5 max-w-4xl">
-               {faqData.map((item) => (
+                {faqData.map((item) => (
                     <FAQItem key={item.id} item={item} />
-               ))}
+                ))}
 
             </div>
             <div className="py-5 gap-2 flex flex-col items-center">
-                <h5 className=' text-grey font-bold text-xl'>Still have a question?</h5>
-                <p className=' text-center font-normal text-base/6 text-grey-light my-2'>Reach out to our support team.</p>
+                <h5 className=' text-grey font-bold text-lg sm:text-xl'>Still have a question?</h5>
+                <p className=' text-center font-normal text-sm sm:text-base/6 text-grey-light my-2'>Reach out to our support team.</p>
                 <SecondaryButton text='Contact Us' />
             </div>
-           
 
-           
+
+
         </section>
     )
 }
