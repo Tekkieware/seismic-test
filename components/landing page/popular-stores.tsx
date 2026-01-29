@@ -18,7 +18,7 @@ const PopularStores = () => {
                 <Badge text='Popular Stores' />
             </div>
             <h2 className=' text-5xl/16 text-grey font-medium text-center'>Top Stores Nigerians Shop From</h2>
-            <p className=' text-center font-normal text-base/6 text-grey my-2'>Shop from trusted international brands across fashion, electronics, home, and more. We <br className="hidden lg:block" /> handle the delivery from abroad and bring your items safely to Nigeria.</p>
+            <p className=' text-center font-normal text-base/6 text-grey-light my-2'>Shop from trusted international brands across fashion, electronics, home, and more. We <br className="hidden lg:block" /> handle the delivery from abroad and bring your items safely to Nigeria.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 my-5">
                 {/* Popular Store Items */}
                {popularStores.map((item) => (

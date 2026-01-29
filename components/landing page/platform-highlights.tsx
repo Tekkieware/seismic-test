@@ -17,7 +17,7 @@ const PlatformHighlights = () => {
                 <Badge text='Platform Highlights' />
             </div>
             <h2 className=' text-5xl/16 text-grey font-medium text-center'>Everything You Need, In One Place</h2>
-            <p className=' text-center font-normal text-base/6 text-grey my-2'>Everything You Need, In One Place</p>
+            <p className=' text-center font-normal text-base/6 text-grey-light my-2'>Everything You Need, In One Place</p>
              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-5">
                 {/* Popular Store Items */}
                {highlights.map((item) => (
