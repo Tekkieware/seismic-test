@@ -13,7 +13,7 @@ const PopularStores = () => {
         { id: 7, name: "north", image: '/images/popular stores/north.png' }, 
         { id: 8, name: "amazon", image: '/images/popular stores/amazon.png' }, ]; //
     return (
-        <section className=" flex flex-col py-12 mx-32">
+        <section className=" flex flex-col py-12 mx-auto max-w-7xl sm:mx-32">
             <div className=" my-4 flex justify-center">
                 <Badge text='Popular Stores' />
             </div>

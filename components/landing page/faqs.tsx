@@ -37,7 +37,7 @@ const FAQs = () => {
     ]
   
     return (
-        <section className=" flex flex-col py-12 mx-32 items-center">
+        <section className=" flex flex-col py-12 mx-auto max-w-7xl items-center">
             <div className=" my-4 flex justify-center">
                 <Badge text='Built For You' />
             </div>

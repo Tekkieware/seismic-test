@@ -12,7 +12,7 @@ const PlatformHighlights = () => {
         {id: 6, name: "Order Notifications", description: "Get updates when your package arrives, ships, and is delivered.", image: "/images/plaform highlights/order-notifications.png"},
     ]
     return (
-        <section className=" flex flex-col py-12 mx-32">
+        <section className=" flex flex-col py-12 mx-auto max-w-7xl">
             <div className=" my-4 flex justify-center">
                 <Badge text='Platform Highlights' />
             </div>

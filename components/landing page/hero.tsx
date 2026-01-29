@@ -16,7 +16,7 @@ const Hero = () => {
                 We Deliver to Nigeria.
             </h1>
             <Image src='/images/hero/hero_products.png' alt='hero product stack' width={1200} height={200}/>
-            <p className=' text-base font-normal text-grey-light text-center'>We help <b>Nigerians shop from abroad,</b> receive items at our overseas warehouse, and <br className="hidden lg:block" /> <b>ship them safely to Nigeria,</b> with clear pricing and full tracking.</p>
+            <p className=' text-base font-normal text-grey-light text-center'>We help <b className=' font-medium'>Nigerians shop from abroad,</b> receive items at our overseas warehouse, and <br className="hidden lg:block" /> <b className=' font-medium'>ship them safely to Nigeria,</b> with clear pricing and full tracking.</p>
             <div className="flex gap-4 py-5">
                 <PrimaryButton text='Get Started' />
                 <SecondaryButton text='How it Works' />

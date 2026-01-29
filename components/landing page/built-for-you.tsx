@@ -13,7 +13,7 @@ const BuiltForYou = () => {
         { id: 4, name: 'Transparent & Secure', image: '/images/icons/shield-search.png', description: 'Clear costs, real tracking, safe payments.' },
     ]
     return (
-        <section className=" flex flex-col py-12 mx-32">
+        <section className=" flex flex-col py-12 mx-auto max-w-7xl">
             <div className=" my-4 flex justify-center">
                 <Badge text='Built For You' />
             </div>
@@ -29,7 +29,7 @@ const BuiltForYou = () => {
                         <Image src="/images/built for you/small-business-owners.png" alt="Small Business Owners" width={1000} height={400} />
                     </div>
                 </SecondaryCard>
-                <div className=" bg-red-50 mt-22">
+                <div className=" bg-red-50 sm:mt-22">
                      <SecondaryCard>
                     <div className="w-full items-center justify-center min-h-35">
                         <Image src="/images/built for you/everyday-shoppers.png" alt="Everyday Shoppers" width={1000} height={400} />
