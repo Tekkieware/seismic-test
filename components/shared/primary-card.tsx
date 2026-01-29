@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = ({ children }: { children: React.ReactNode }) => {
+const PrimaryCard = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className=' bg-card rounded-[30px] w-full'>
         {children}
@@ -8,4 +8,4 @@ const Card = ({ children }: { children: React.ReactNode }) => {
   )
 }
 
-export default Card
+export default PrimaryCard
