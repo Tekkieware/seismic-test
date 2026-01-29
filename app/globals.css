@@ -10,6 +10,9 @@
 
   /* Custom Font Family */
   --font-family-satoshi: 'Satoshi', sans-serif;
+
+  /* Custom Font Sizes */
+  --text-bold-caption: 52px;
 }
 
 :root {

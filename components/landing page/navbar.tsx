@@ -1,3 +1,4 @@
+import PrimaryButton from "../shared/primary-button"
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
         <li>FAQs</li>
         <li>Support</li>
       </ul>
-      <button className='bg-primary text-white text-base font-bold px-5  py-4 rounded-full'>Get Started</button>
+      <PrimaryButton text="Get Started" />
     </nav>
   )
 }
