@@ -42,7 +42,7 @@ const BuiltForYou = () => {
                 </div>
                
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 my-28">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-28">
                 {
                     services.map((item) => (
                         <ServicesItem key={item.id} item={item} />
